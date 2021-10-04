@@ -63,7 +63,7 @@ img{
 /*PARTE RESPONSIVE*/
 @media (max-width:420px){
   .row{
-    width: 420px;
+    width: 405px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,12 +73,19 @@ img{
   #steps .row > .central,
   #steps .row > .right{
     float: none;
-    width: 300px;
+    width: 85%;
     padding-bottom: 30px;
   }
 
   .container.grey .right img{
-    
+    height: 136px;
+    padding-top: 10px;
+  }
+
+  #lezioni .row > .left, #lezioni .row > .right{
+    float: none;
+    width: 85%;
+    padding-bottom: 30px; 
   }
 
 }
